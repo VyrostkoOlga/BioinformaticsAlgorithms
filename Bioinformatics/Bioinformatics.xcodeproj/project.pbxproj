@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C90AEB2E2115E50A00F6E9C9 /* ArraySlice+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AEB2D2115E50A00F6E9C9 /* ArraySlice+Compare.swift */; };
+		C90AEB2F2115E93000F6E9C9 /* ArraySlice+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AEB2D2115E50A00F6E9C9 /* ArraySlice+Compare.swift */; };
+		C90AEB332115E98D00F6E9C9 /* PatternMatchingTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90AEB322115E98D00F6E9C9 /* PatternMatchingTestCase.swift */; };
 		C9BEE63B21136F46005C85F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE63A21136F46005C85F5 /* main.swift */; };
 		C9BEE64221136FDA005C85F5 /* PatternMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64121136FDA005C85F5 /* PatternMatching.swift */; };
 		C9BEE64421136FF7005C85F5 /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64321136FF7005C85F5 /* Alphabet.swift */; };
@@ -28,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C90AEB2D2115E50A00F6E9C9 /* ArraySlice+Compare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArraySlice+Compare.swift"; sourceTree = "<group>"; };
+		C90AEB322115E98D00F6E9C9 /* PatternMatchingTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternMatchingTestCase.swift; sourceTree = "<group>"; };
 		C9BEE63721136F46005C85F5 /* Bioinformatics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bioinformatics; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9BEE63A21136F46005C85F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C9BEE64121136FDA005C85F5 /* PatternMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternMatching.swift; sourceTree = "<group>"; };
@@ -55,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C90AEB2C2115E4F200F6E9C9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C90AEB2D2115E50A00F6E9C9 /* ArraySlice+Compare.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C9BEE62E21136F46005C85F5 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +89,7 @@
 		C9BEE63921136F46005C85F5 /* Bioinformatics */ = {
 			isa = PBXGroup;
 			children = (
+				C90AEB2C2115E4F200F6E9C9 /* Helpers */,
 				C9BEE63A21136F46005C85F5 /* main.swift */,
 				C9BEE64121136FDA005C85F5 /* PatternMatching.swift */,
 				C9BEE64321136FF7005C85F5 /* Alphabet.swift */,
@@ -88,6 +102,7 @@
 			children = (
 				C9C9A9E32115B7A7000360A2 /* Info.plist */,
 				C9C9A9E72115B7D1000360A2 /* ReverseComplementTestCase.swift */,
+				C90AEB322115E98D00F6E9C9 /* PatternMatchingTestCase.swift */,
 			);
 			path = BioinformaticsTests;
 			sourceTree = "<group>";
@@ -180,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90AEB2E2115E50A00F6E9C9 /* ArraySlice+Compare.swift in Sources */,
 				C9BEE64421136FF7005C85F5 /* Alphabet.swift in Sources */,
 				C9BEE63B21136F46005C85F5 /* main.swift in Sources */,
 				C9BEE64221136FDA005C85F5 /* PatternMatching.swift in Sources */,
@@ -190,6 +206,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90AEB2F2115E93000F6E9C9 /* ArraySlice+Compare.swift in Sources */,
+				C90AEB332115E98D00F6E9C9 /* PatternMatchingTestCase.swift in Sources */,
 				C9C9A9EB2115BAA7000360A2 /* Alphabet.swift in Sources */,
 				C9C9A9E82115B7D1000360A2 /* ReverseComplementTestCase.swift in Sources */,
 				C9C9A9EC2115BAA9000360A2 /* PatternMatching.swift in Sources */,
