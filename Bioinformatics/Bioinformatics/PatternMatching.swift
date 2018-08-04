@@ -40,3 +40,11 @@ func patternMatching(genome: [Symbol], pattern: [Symbol]) -> [Int] {
     }
     return result
 }
+
+/**
+ Returns number of occurences of pattern in genome
+ Complexity - O((n-k)*k), where n = length of genome, k = length of pattern
+ */
+func patternCount(genome: [Symbol], pattern: [Symbol]) -> Int {
+    return patternMatching(genome: genome, pattern: pattern).count
+}
