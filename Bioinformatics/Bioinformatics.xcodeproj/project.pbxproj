@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9BEE63B21136F46005C85F5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE63A21136F46005C85F5 /* main.swift */; };
+		C9BEE64221136FDA005C85F5 /* PatternMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64121136FDA005C85F5 /* PatternMatching.swift */; };
+		C9BEE64421136FF7005C85F5 /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64321136FF7005C85F5 /* Alphabet.swift */; };
+		C9C9A9E82115B7D1000360A2 /* ReverseComplementTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C9A9E72115B7D1000360A2 /* ReverseComplementTestCase.swift */; };
+		C9C9A9EB2115BAA7000360A2 /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64321136FF7005C85F5 /* Alphabet.swift */; };
+		C9C9A9EC2115BAA9000360A2 /* PatternMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BEE64121136FDA005C85F5 /* PatternMatching.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9BEE63521136F46005C85F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C9BEE63721136F46005C85F5 /* Bioinformatics */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bioinformatics; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9BEE63A21136F46005C85F5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C9BEE64121136FDA005C85F5 /* PatternMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternMatching.swift; sourceTree = "<group>"; };
+		C9BEE64321136FF7005C85F5 /* Alphabet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alphabet.swift; sourceTree = "<group>"; };
+		C9C9A9DF2115B7A7000360A2 /* BioinformaticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioinformaticsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C9A9E32115B7A7000360A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C9A9E72115B7D1000360A2 /* ReverseComplementTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseComplementTestCase.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9BEE63421136F46005C85F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C9A9DC2115B7A7000360A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9BEE62E21136F46005C85F5 = {
+			isa = PBXGroup;
+			children = (
+				C9BEE63921136F46005C85F5 /* Bioinformatics */,
+				C9C9A9E02115B7A7000360A2 /* BioinformaticsTests */,
+				C9BEE63821136F46005C85F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9BEE63821136F46005C85F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9BEE63721136F46005C85F5 /* Bioinformatics */,
+				C9C9A9DF2115B7A7000360A2 /* BioinformaticsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9BEE63921136F46005C85F5 /* Bioinformatics */ = {
+			isa = PBXGroup;
+			children = (
+				C9BEE63A21136F46005C85F5 /* main.swift */,
+				C9BEE64121136FDA005C85F5 /* PatternMatching.swift */,
+				C9BEE64321136FF7005C85F5 /* Alphabet.swift */,
+			);
+			path = Bioinformatics;
+			sourceTree = "<group>";
+		};
+		C9C9A9E02115B7A7000360A2 /* BioinformaticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C9A9E32115B7A7000360A2 /* Info.plist */,
+				C9C9A9E72115B7D1000360A2 /* ReverseComplementTestCase.swift */,
+			);
+			path = BioinformaticsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9BEE63621136F46005C85F5 /* Bioinformatics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BEE63E21136F46005C85F5 /* Build configuration list for PBXNativeTarget "Bioinformatics" */;
+			buildPhases = (
+				C9BEE63321136F46005C85F5 /* Sources */,
+				C9BEE63421136F46005C85F5 /* Frameworks */,
+				C9BEE63521136F46005C85F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bioinformatics;
+			productName = Bioinformatics;
+			productReference = C9BEE63721136F46005C85F5 /* Bioinformatics */;
+			productType = "com.apple.product-type.tool";
+		};
+		C9C9A9DE2115B7A7000360A2 /* BioinformaticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C9A9E42115B7A7000360A2 /* Build configuration list for PBXNativeTarget "BioinformaticsTests" */;
+			buildPhases = (
+				C9C9A9DB2115B7A7000360A2 /* Sources */,
+				C9C9A9DC2115B7A7000360A2 /* Frameworks */,
+				C9C9A9DD2115B7A7000360A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioinformaticsTests;
+			productName = BioinformaticsTests;
+			productReference = C9C9A9DF2115B7A7000360A2 /* BioinformaticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9BEE62F21136F46005C85F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					C9BEE63621136F46005C85F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C9C9A9DE2115B7A7000360A2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = C9BEE63221136F46005C85F5 /* Build configuration list for PBXProject "Bioinformatics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9BEE62E21136F46005C85F5;
+			productRefGroup = C9BEE63821136F46005C85F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9BEE63621136F46005C85F5 /* Bioinformatics */,
+				C9C9A9DE2115B7A7000360A2 /* BioinformaticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C9A9DD2115B7A7000360A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9BEE63321136F46005C85F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BEE64421136FF7005C85F5 /* Alphabet.swift in Sources */,
+				C9BEE63B21136F46005C85F5 /* main.swift in Sources */,
+				C9BEE64221136FDA005C85F5 /* PatternMatching.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C9A9DB2115B7A7000360A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C9A9EB2115BAA7000360A2 /* Alphabet.swift in Sources */,
+				C9C9A9E82115B7D1000360A2 /* ReverseComplementTestCase.swift in Sources */,
+				C9C9A9EC2115BAA9000360A2 /* PatternMatching.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9BEE63C21136F46005C85F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9BEE63D21136F46005C85F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9BEE63F21136F46005C85F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRGDGY2P6L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C9BEE64021136F46005C85F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRGDGY2P6L;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C9C9A9E52115B7A7000360A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PRGDGY2P6L;
+				INFOPLIST_FILE = BioinformaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vyrostkoolga.BioinformaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C9C9A9E62115B7A7000360A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = PRGDGY2P6L;
+				INFOPLIST_FILE = BioinformaticsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vyrostkoolga.BioinformaticsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9BEE63221136F46005C85F5 /* Build configuration list for PBXProject "Bioinformatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BEE63C21136F46005C85F5 /* Debug */,
+				C9BEE63D21136F46005C85F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BEE63E21136F46005C85F5 /* Build configuration list for PBXNativeTarget "Bioinformatics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9BEE63F21136F46005C85F5 /* Debug */,
+				C9BEE64021136F46005C85F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C9A9E42115B7A7000360A2 /* Build configuration list for PBXNativeTarget "BioinformaticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C9A9E52115B7A7000360A2 /* Debug */,
+				C9C9A9E62115B7A7000360A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9BEE62F21136F46005C85F5 /* Project object */;
+}
